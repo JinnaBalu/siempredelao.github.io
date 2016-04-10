@@ -11,6 +11,7 @@ google_play: 'dANDROvID'
 # google_plus_com: '110796575860407978413'  # Community link
 google_plus_per: '+DavidAguiarGonzalez'  #Personal link
 # facebook_app_id: 12345
+linkedin: davidaguiargonzalez
 
 # Layout settings
 header_type: default  # values [ drawer, default ]
