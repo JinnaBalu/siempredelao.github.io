@@ -6,7 +6,7 @@
       <h1 class="mdl-mega-footer--heading">INFO</h1>
       <ul class="mdl-mega-footer--link-list">
         <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a></li>
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">Subscribe via RSS</a></li>
       </ul>
     </div>
 
@@ -50,7 +50,7 @@
               </svg>
             </span>
 
-            <span class="username">Google Play</span>
+            <span class="username">{{ site.google_play }}</span>
           </a>
         </li>
       {% endif %}
@@ -63,7 +63,7 @@
 			  </svg>
             </span>
 
-            <span class="username">Google Plus Community</span>
+            <span class="username">{{ site.google_plus_com }}</span>
           </a>
         </li>
       {% endif %}
@@ -76,7 +76,7 @@
 			  </svg>
             </span>
 
-            <span class="username">Google Plus Profile</span>
+            <span class="username">{{ site.google_plus_per }}</span>
           </a>
         </li>
       {% endif %}
@@ -89,7 +89,7 @@
 			  </svg>
             </span>
 
-            <span class="username">linkedIn</span>
+            <span class="username">{{ site.linkedin }}</span>
           </a>
         </li>
       {% endif %}-->
