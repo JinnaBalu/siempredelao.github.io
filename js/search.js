@@ -113,18 +113,18 @@ MIT Licensed
     xmlhttp.send();
 
     // Toggle on ESC key
-    window.addEventListener('keyup', function onKeyPress(e) {
-      if (e.which === 27) {
-        toggleSearch();
-      }
-    });
+    // window.addEventListener('keyup', function onKeyPress(e) {
+    //   if (e.which === 27) {
+    //     toggleSearch();
+    //   }
+    // });
 
-    // Open on '/' key
-    window.addEventListener('keypress', function onKeyPress(e) {
-      if (e.which === 47 && !searchEl.classList.contains('is-active')) {
-        toggleSearch();
-      }
-    });
+    // // Open on '/' key
+    // window.addEventListener('keypress', function onKeyPress(e) {
+    //   if (e.which === 47 && !searchEl.classList.contains('is-active')) {
+    //     toggleSearch();
+    //   }
+    // });
 
     searchInputEl.addEventListener('input', function onInputChange() {
       handleInput();
