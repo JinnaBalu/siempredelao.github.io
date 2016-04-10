@@ -18,6 +18,12 @@ header_type: default  # values [ drawer, default ]
 post_type: highlight    # values [ highlight, default ]
 pagination_type: default  # values [ ops, default ]
 
+share:
+  twitter: true
+  facebook: true
+  google_plus: true
+  linkedin: true
+
 # more_vert:
 #   option1:
 #     name: Cool Option 1

@@ -13,6 +13,11 @@ layout: default
       <article class="post-content">
         <p>{{ content }}</p>
       </article>
+      {% if site.share.twitter or site.share.facebook or site.share.google_plus or site.share.linkedin %}
+        {% assign isPage = true %}
+        {% include share.html %}
+      {% endif %}
+    
       <!-- Disqus comments -->
       {% if site.disqus %}
       <div>
