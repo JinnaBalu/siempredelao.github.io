@@ -24,10 +24,10 @@ share:
   google_plus: true
   linkedin: true
 
-# more_vert:
-#   option1:
-#     name: Cool Option 1
-#     link: www.myawesomelink.com
+more_vert:
+  option1:
+    name: About me
+    link: /aboutme
 #   option2:
 #     name: Cool Option 2
 #     link: www.myawesomelink.com
