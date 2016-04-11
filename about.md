@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-###### A Jekyll theme based in Google Material Design Lite library.
+###### David Aguiar González
 
 This is the base Jekyll Material Design Lite theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
