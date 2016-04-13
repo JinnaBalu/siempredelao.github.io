@@ -5,6 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Hi! I'm David and I'm a Software engineer especially passioned about Android and Java development. I hope you find my blog useful :) 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://siempredelao.github.com" # the base hostname & protocol for your site
+permalink: /:title.html
+
 twitter_username: PowerAndBrake
 github_username:  siempredelao
 google_play: 'dANDROvID'
