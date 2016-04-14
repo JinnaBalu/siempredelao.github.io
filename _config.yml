@@ -14,6 +14,7 @@ google_play: 'dANDROvID'
 google_plus_per: '+DavidAguiarGonzalez'  #Personal link
 # facebook_app_id: 12345
 linkedin: davidaguiargonzalez
+analytics_id : 'UA-76423870-1'
 
 # Layout settings
 header_type: default  # values [ drawer, default ]
