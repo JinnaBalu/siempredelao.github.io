@@ -1,5 +1,6 @@
 # Site settings
 title: David Aguiar's Dev Blog
+author: David Aguiar
 email: davidaguiargonzalez@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi! I'm David and I'm a Software engineer especially passioned about Android and Java development. I hope you find my blog useful :) 

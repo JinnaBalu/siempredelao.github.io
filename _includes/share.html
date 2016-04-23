@@ -1,36 +1,42 @@
-{% if isPage %}
-  {% assign post = page %}
-{% endif %}
+{% if isPage %} {% assign post = page %} {% endif %}
 
 <section class="post-share">
 
-  <p>That's it! If you liked this post, I'd appreciate if you share it :-)</p>
+    <br>
 
-  <ul class="share-social-medias list-inline">
-
-    {% if site.share.twitter %}
-    <li class="twitter-social-media">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ post.url | prepend: site.url }}" data-text="{{ post.title }}">Tweet</a>
-    </li>
-    {% endif %}
-
-    {% if site.share.facebook %}
-    <li class="facebook-social-media">
-      <div class="fb-share-button" data-href="{{ post.url | prepend: site.url }}" data-layout="button_count"></div>
-    </li>
-    {% endif %}
-
-    {% if site.share.google_plus %}
-    <li class="google-plus-social-media">
-      <div class="g-plusone" data-size="medium" data-href="{{ post.url | prepend: site.url }}"></div>
-    </li>
-    {% endif %}
-
-    {% if site.share.linkedin %}
-    <li class="linkedin-social-media">
-      <script type="IN/Share" data-url="{{ post.url | prepend: site.url }}" data-counter="right" data-showzero="true"></script>
-    </li>
-    {% endif %}
-  </ul>
+    <ul class="share-buttons">
+        <li><b>Share:</b></li>
+        <li>
+            <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}"
+            target="_blank"
+            title="Share on Facebook">
+                <img src="img/facebook_logo.png"></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
+            target="_blank"
+            title="Tweet">
+                <img src="img/twitter_logo.png"></a>
+        </li>
+        <li>
+            <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
+            target="_blank"
+            title="Share on Google+">
+                <img src="img/google+_logo.png"></a>
+        </li>
+        <li>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary=&source={{ site.url }}{{ page.url }}"
+            target="_blank"
+            title="Share on LinkedIn">
+                <img src="img/linkedIn_logo.png"></a>
+        </li>
+        <li>
+            <a href="mailto:?subject={{ page.title }} - {{ site.title }}&body=I want to share with you {{ page.title }} ({{ site.url }}{{ page.url }}), an article written by {{ site.author }} (@{{ site.twitter_username }})."
+            target="_blank"
+            title="Share via email">
+                <img src="img/email_logo.png"></a>
+        </li>
+        
+    </ul>
 
 </section>
