@@ -5,6 +5,7 @@ author: David Aguiar
 date: 2016-04-10 19:28:00
 categories: TestCategory
 highlight: true
+comments: true
 image: /img/welcome_card.jpg
 ---
 

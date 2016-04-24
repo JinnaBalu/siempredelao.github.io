@@ -17,7 +17,7 @@ layout: default
         <p>{{ content }}</p>
       </article>
       
-      {% if site.disqus and page.title != "About" %}
+      {% if site.disqus and page.comments %}
       <div>
           <br>
           {% include disqus.html %}
