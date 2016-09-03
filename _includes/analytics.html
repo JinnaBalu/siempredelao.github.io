@@ -9,4 +9,24 @@
   ga('create', '{{ site.analytics_id }}', 'auto');
   ga('send', 'pageview');
 
+  /*
+    * Function that tracks a click on an outbound link in Google Analytics.
+    * This function takes a valid URL string as an argument, and uses that URL string
+    * as the event label.
+    * Setting transport method as "beacon" allows the hit to be sent with "navigator.sendBeacon"
+    * in the browser which allows it (otherwise, it will fall back to 'image' or 'xhr' depending on hit size.)
+    */
+  var trackOutboundLink = function(url, eventLabel, eventName) {
+      ga('send', 'event', 'outbound_link', eventLabel, eventName, {
+          'transport': 'beacon',
+          'hitCallback': function() {
+              document.location = url;
+          }
+      });
+  }
+
+  var trackFooterLink = function(url, eventName) {
+    trackOutboundLink(url, 'Footer', eventName);
+  }
+
 </script>
