@@ -26,7 +26,23 @@
   }
 
   var trackFooterLink = function(url, eventName) {
-    trackOutboundLink(url, 'Footer', eventName);
+    trackOutboundLink(url, 'footer', eventName);
+  }
+
+  var trackSocialLink = function(url, socialAction, socialNetwork) {
+      ga('send', 'social', socialNetwork, socialAction, url, {
+          'hitCallback': function() {
+              document.location = url;
+          }
+      });
+  }
+
+  var trackSharePostLink = function(url, socialNetwork) {
+    trackSocialLink(url, 'share_post', socialNetwork);
+  }
+
+  var trackShareCardLink = function(url, socialNetwork) {
+    trackSocialLink(url, 'share_card', socialNetwork);
   }
 
 </script>
