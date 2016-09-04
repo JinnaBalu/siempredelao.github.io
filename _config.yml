@@ -33,9 +33,9 @@ more_vert:
   option1:
     name: About me
     link: /about
-#   option2:
-#     name: Cool Option 2
-#     link: www.myawesomelink.com
+  option2:
+    name: Cookies policy
+    link: /cookies
 #   option3:
 #     name: Cool Option 3   
 #     link: www.myawesomelink.com
