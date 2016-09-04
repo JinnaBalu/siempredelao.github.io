@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Test"
+title: "Web under construction"
 author: David Aguiar
 date: 2016-04-10 19:28:00
-categories: TestCategory
+categories: WIP
 highlight: true
 comments: true
-image: /img/welcome_card.jpg
+image: /img/under_construction.jpg
 ---
 
 Minions ipsum tulaliloo gelatooo po kass tank yuuu! Tank yuuu! Jeje belloo! Daa baboiii chasy bananaaaa ti aamoo! Bappleees potatoooo para tú bee do bee do bee do gelatooo jeje. Para tú tulaliloo belloo! Bappleees. Po kass jiji bananaaaa me want bananaaa! Tatata bala tu bappleees wiiiii uuuhhh bananaaaa. Poulet tikka masala butt chasy tank yuuu! Bappleees ti aamoo! Gelatooo po kass po kass belloo! Gelatooo. Potatoooo underweaaar pepete para tú baboiii underweaaar tulaliloo gelatooo hahaha me want bananaaa! Me want bananaaa! Poulet tikka masala potatoooo aaaaaah hahaha pepete. Daa tank yuuu! Hana dul sae bee do bee do bee do. Gelatooo aaaaaah bappleees potatoooo wiiiii jeje tatata bala tu jeje.
