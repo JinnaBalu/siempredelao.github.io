@@ -1,5 +1,11 @@
   <header class="mdl-layout__header">
 
+    {% if page.url != "/" %}
+      <button class="mdl-layout-icon mdl-button mdl-js-button mdl-button--icon" onclick="history.go(-1);">
+        <i class="material-icons">arrow_back</i>
+      </button>
+    {% endif %}
+
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title">{{ site.title }}</span>
