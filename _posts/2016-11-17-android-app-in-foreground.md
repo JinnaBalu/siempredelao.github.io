@@ -12,6 +12,7 @@ image: /img/app_foreground_image.jpg
 Recently, I had to develop a new feature in the app which shows different UI depending whether the app is shown or not. In this post, we will go through different options, from most common, wrong and overused way to the best solution.
 
 Having different behaviors depending if the app is shown or not is a very common use case. For example, let's imagine three case scenarios (although for sure there are many more!):
+
 - <u>Receiving a push notification</u>: refreshing your current displayed UI **Vs** showing a local notification.
 - <u>Receiving an incoming call</u>: showing a bubble-Facebook-style to take some notes about the call if app is not shown **Vs** showing the caller data if it is.
 - <u>Receiving an email</u>: showing a local notification if the app is not shown **Vs** showing a Snackbar if it is.
