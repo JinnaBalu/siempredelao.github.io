@@ -70,7 +70,7 @@ There are two general-purpose implementations:
 
 A `Map` is an object which maps unique keys to at most one value. If you need to map a key with more than one value, use a Multimap instead. Two Map instances are equal if they represent the same key-value mappings. Although it is not a Collection per se, it contains some methods to be seen as a Collection (keySet, entrySet, values), where we can iterate to remove but not to add new elements.
 
-##### SortedSet
+##### SortedMap
 
 A Map sorted by ascending order or keys' natural ordering or any specific one using a Comparator. It offers range-view, endpoint access and comparator access.
 
